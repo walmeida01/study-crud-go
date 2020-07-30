@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/walmeida01/study-fullstack/api/auth"
-	"github.com/walmeida01/study-fullstack/api/responses"
+	"github.com/walmeida01/study-crud-go/api/auth"
+	"github.com/walmeida01/study-crud-go/api/responses"
 )
 
 func SetMiddlewareJSON(next http.HandlerFunc) http.HandlerFunc {

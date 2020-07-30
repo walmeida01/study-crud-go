@@ -4,17 +4,17 @@ import (
 	"log"
 
 	"github.com/jinzhu/gorm"
-	"github.com/walmeida01/study-fullstack/models"
+	"github.com/walmeida01/study-crud-go/models"
 )
 
 var users = []models.User{
 	models.User{
-		Nickname: "Steven victor",
+		Nickname: "Steven",
 		Email:    "steven@gmail.com",
 		Password: "password",
 	},
 	models.User{
-		Nickname: "Martin Luther",
+		Nickname: "Martin",
 		Email:    "luther@gmail.com",
 		Password: "password",
 	},

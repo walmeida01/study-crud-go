@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/walmeida01/study-fullstack/api/middlewares"
+import "github.com/walmeida01/study-crud-go/api/middlewares"
 
 func (s *Server) initializeRoutes() {
 
